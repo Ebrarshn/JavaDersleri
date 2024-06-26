@@ -6,15 +6,15 @@ public class cinzodyagı {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		
+
+		System.out.println("Doğum yılınızı giriniz: ");
 		int tarih = scan.nextInt();
-		System.out.println("Doğum yılınızı giriniz: " + tarih);
 		
 		int burc = tarih%12;
 		
 		switch (burc) {
 		    case 0: 
-	    	System.out.println("Çin Zodyağı Burcunuz: Maymun ");
+	    	    System.out.println("Çin Zodyağı Burcunuz: Maymun ");
 	    	    break;
 		    case 1: 
 		    	System.out.println("Çin Zodyağı Burcunuz: Horoz ");
@@ -50,7 +50,7 @@ public class cinzodyagı {
 		    	System.out.println("Çin Zodyağı Burcunuz: Koyun ");
 		    	break;
 		    default :
-		    	System.out.println("Hatalı ver girdiniz.");
+		    	System.out.println("Hatalı veri girdiniz.");
 		
 		}
 
