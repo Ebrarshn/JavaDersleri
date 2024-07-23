@@ -14,7 +14,7 @@ public class fibonacci {
 		
 		for(int i=0; i<=k; i++) {
 			
-			System.out.println(n1 + " ");
+			System.out.println(n1 + "+" + n2 + "=" + sonuc );
 			
 			sonuc=n1+n2;
 			n1=n2;
